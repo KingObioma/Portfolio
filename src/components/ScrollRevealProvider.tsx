@@ -31,7 +31,7 @@ export default function ScrollRevealProvider() {
       clearTimeout(timer);
       observer.disconnect();
     };
-  }, [pathnames]);
+  }, [pathname]);
 
   return null;
 }
