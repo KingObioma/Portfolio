@@ -11,7 +11,7 @@ export default function ScrollRevealProvider() {
       (entries) => {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
-            entry.target.classList.add("visible");
+            entry.target.classList.remove("visible");
             observer.unobserve(entry.target);
           }
         });
