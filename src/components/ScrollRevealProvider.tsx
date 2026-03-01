@@ -22,7 +22,7 @@ export default function ScrollRevealProvider() {
     // Small delay so Next.js finishes painting the new page DOM before we observe
     const timer = setTimeout(() => {
       document.querySelectorAll(".reveal").forEach((el) => {
-        el.classList.remove("invisible");
+        el.classList.remove("visible");
         observer.observe(el);
       });
     }, 50);
