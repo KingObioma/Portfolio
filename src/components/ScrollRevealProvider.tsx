@@ -28,7 +28,7 @@ export default function ScrollRevealProvider() {
     }, 50);
 
     return () => {
-      clearTimeout(timer);
+      clearTimeout(timing);
       observer.disconnect();
     };
   }, [pathname]);
