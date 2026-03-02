@@ -53,7 +53,7 @@ export const projects: Project[] = [
   },
   {
     id: "3",
-    title: "Hennix Computers", king
+    title: "Hennix Computers", 
     slug: "hennix-computers",
     description:
       "A sleek e-commerce demo site for a premium laptop retailer, featuring a product catalog, detailed specs, checkout flow, and nationwide delivery integration.",
