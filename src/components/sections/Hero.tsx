@@ -42,7 +42,7 @@ export default function Hero() {
                   <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75" />
                   <span className="relative inline-flex rounded-full h-2 w-2 bg-primary" />
                 </span>
-                <span className="text-primary font-medium text-sm">Available Work · Full-Stack · Mobile · UI/UX</span>
+                <span className="text-primary font-medium text-sm">Available · Full-Stack · Mobile · UI/UX</span>
               </div>
 
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-[1.1] mb-6">
